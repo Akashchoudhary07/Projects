@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    /* border: 1px solid red; */
+}
+                                    /* Header slide */
+header {
+    display: block;
+    width: 100%;
+    height: 880px;
+    background-color: #fcc302; 
+}
+nav{
+    margin: 0 auto;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: #daac00;
+    color: #ffffff;
+    align-items: center;
+    padding: 20px 70px;
+}
+.logo {
+    width: 15%;
+    margin-left: 90px;
+}
+.menus {
+    width: 65%;
+    margin-left: 20px;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+}
+ul li {
+    list-style-type: none;
+    font-size: 29px;
+    font-weight: 500;
+}
+.search-boox{
+    display: flex;
+    height: 38px;
+    margin-right:  60px;
+    padding-right: 70px; 
+}
+                                    /* part-1 and part-2 of search-boox */
+.part-1{
+    width: 150px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+    padding: 5px 10px;
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74,74,74,0.1));
+    background-color: #fcc302;
+    position: relative;
+}
+.part-2{
+    color: #ffffff;
+    width: 50px;
+    height:38px;
+    margin: 0px 0px 0px 100px;
+    padding: 10px 5px 0px 20px;
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74,74,74,0.1));
+    background-color: #00bec9;
+    position: absolute;
+} 
+                                    /* container for all slides */
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+                                    /* container for all slides */
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+                               /* col-60 and col-40 both are coloumns of row */
+.col-60{
+    width: 60%;
+    margin-right: 57px;
+}
+.col-40{
+    width: 40%;
+    padding-top: 60px;
+    margin-top: 50px;
+}
+                                /* h2 and h2+p both are the text of of col-60 */
+h2{
+    font-size: 63px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: left;
+    margin: 0px 17px 5px 52px;
+    padding: 80px 17px 0px 45px;
+}
+h2+p{
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+    margin: 0px 0px 39px 52px;
+    padding: 0px 0px 0px 46px;
+}
+                             /* parent class of btn-1 and btn-2 */
+.button{
+   margin-left: 36px;
+   padding-left: 60px;
+   text-align: left;
+}
+                /* btn-1 and btn-2 both are the parts of button class and includ into col-60  */
+.btn-1{
+    background-color: #00bec9;
+    margin-right: 30px;
+    border: 3px solid #00bec9;
+
+}
+.btn-2{
+    background-color:#fcc302;
+    border: 3px solid #ffffff;
+}
+                              /* same properties of btn-1 and btn-2 */
+.btn-1 , .btn-2{
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+}
+                               /* section-1 and section-2 button */
+#section-2 .btn-1 , #section-4 .btn-1{
+    background-color:#fcc302 !important ;
+    border: 3px solid #fcc302;
+}
+                               /* Section-wrapper for all slides */
+.section-wrapper{
+    position: relative;
+    margin: 77px 0px 90px 0px;
+}
+                           /* background-color for section-2 , section-4  */
+#section-2 , #section-4 , #section-6{
+    background-color: white;
+}
+                           /* background-color for section-3 and section-5 */
+#section-3 , #section-5{
+    background-color: #fcc302;
+}
+#section-7{
+    background: url(images/background.png)no-repeat center center/cover;
+}
+                       /* h2 and h2+p of col-60 in sections */
+#section-2 h2 , #section-4 h2 , #section-6 h2 , #section-8 h2{
+    font-size: 50px;
+    color: #313243;
+}
+#section-6 h2 , #section-8 h2{
+    font-size: 75px;
+    font-weight: 700;
+}
+#section-2 h2+p , #section-4 h2+p , #section-6 h2+p , #section-8 h2+p{
+    letter-spacing: 0px;
+    color: #313243;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+                         /* class of video-clip image in col-40 */
+.img-1{
+    position: relative;
+    overflow: hidden;
+}
+                     /* class of yellow-box image in section-2 of row-40 */
+ .yellow-box{
+    position: absolute;
+    right: 382px;
+    bottom: -20px;
+}
+                 /* parent class of h2 and h2+p for  top-heading title or paragraph */
+.text{
+    margin: 0px 66px;
+    padding: 0px 44px;
+}
+                      /* h2 and h2+p for top-heading title and paragraph */
+.text h2{
+    font-size: 63px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+   
+}
+.text h2+p{
+    font-size: 29px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 0px 55px 50px 71px;
+    padding: 0px 100px;
+}
+                   /* There are three col-30 in some rows which is 33.33% wide */
+.col-30{
+    width: 33.33%;
+}
+                          /* box-properties of col-30 in row */
+div[class*="box"] {
+    width: 342px;
+    height: 353px;
+    background-color: #d1d1d1;
+    margin: 0 auto;
+}
+                             /* box-images in section-3 */
+.box-1 {
+    background: url(Images/dog-1.png)no-repeat center center/cover;
+}
+.box-2 {
+    background: url(Images/dog-2.png)no-repeat center center/cover;
+}
+.box-3 {
+    background: url(Images/dog-3.png)no-repeat center center/cover;
+}
+                                 /* box-images in section-5 */
+#section-5 .box-1 {
+    background: url(Images/dogi-1.png)no-repeat center center/cover;
+}
+#section-5 .box-2 {
+    background: url(Images/dogi-2.png)no-repeat center center/cover;
+}
+#section-5 .box-3 {
+    background: url(Images/dogi-3.png)no-repeat center center/cover;
+}
+                                  /* box-images in section-6 */
+#section-6 .box-1 {
+    background: url(Images/dr-1.png)no-repeat center center/cover;
+}
+#section-6 .box-2 {
+    background: url(Images/dr-2.png)no-repeat center center/cover;
+}
+#section-6 .box-3 {
+    background: url(Images/dr-3.png)no-repeat center center/cover;
+}
+                       /* box-images in section-7 */
+#section-7 .box-1 {
+    background: url(Images/dil.png)no-repeat center center;
+}
+#section-7 .box-2 {
+    background: url(Images/stethoscope.png)no-repeat center center;
+}
+#section-7 .box-3 {
+    background: url(Images/sui.png)no-repeat center center;
+}
+                      /* box-images in section-7 */
+#section-8 .box-1 {
+    background: url(Images/dog-4.png)no-repeat center center;
+}
+#section-8 .box-2 {
+    background: url(Images/dog-5.png)no-repeat center center;
+}
+#section-8 .box-3 {
+    background: url(Images/dog-6.png)no-repeat center center;
+}
+#section-7 div[class*="box"]{
+    height: 140px;
+    width: 150px;
+}
+#section-7 .row{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+                             /* h3 and h3+p both are text of col-30 */
+h3 {
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+h3+p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin: 5px 29px;
+    padding-bottom: 90px;
+}
+                           /* yellow-box properties in section-4 */
+#section-4 .yellow-box{
+    position: absolute;
+    left: 373px;
+    bottom: -20px;
+}
+#section-4 h2 , #section-4 h2+p , #section-4 .button{
+    text-align: right;
+}
+#section-5 .btn-1{
+    border-radius: 30px;
+    margin: 15px 90px 95px 0px;
+}
+#section-6 .row{
+    justify-content: space-evenly;
+    padding: 0px 70px;
+}
+#section-6 h3 , #section-6 h3+p{
+    color: #313243;
+}
+#section-6 h3+p{
+    margin: 5px 29px 0px 29px;
+    padding-bottom: 30px;
+}
+.icons{
+    margin-left: 40px;
+}
+.icons img{
+    margin: 0px 49px 0px 8px;
+}
+#section-8 .row{
+    text-align: left !important;
+    justify-content: space-between;
+    padding: 0px 56px 0px 92px;
+}
+#section-8 h3{
+    margin: 20px 50px;
+    text-align: left !important;
+    font-size: 25px;
+    color: #313243;
+}
+#section-8 h4 , #section-8 h5{
+    margin: 0px 50px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: #00bec9;
+    font-weight: 700;    
+}
+#section-8 h4+p{
+    margin: 0px 50px;
+}
+#section-8 h5{
+    margin: 20px 50px;
+    font-size: 21px;
+}
+#footer{
+    background-color: #343434;
+}
+#footer .col-40{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+#footer h6{
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.M-text p{
+    font-size: 25px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+}
+#footer .row{
+    margin-left: 80px;
+    padding: 100px 0px;
+}
+
+
+
+
+
